@@ -1,0 +1,19 @@
+columns description:
+weights -- weight of each chain.  Needs to be used for any statistic computed
+vel_avr -- average velocity (km/s) of dSph. part of chain
+dist -- distance to dSph (kpc). Gaussian prior.
+ellipticity -- ellipticity of dSph. Gaussian prior. For some objects this is fixed to 0 and not included.
+rplummer -- plummer radius (arcmin).  Gaussian prior
+rs -- log10(rs/kpc). Scale radius of NFW profile
+rhos -- log10(ps/(Msolar/kpc^3)). Scale density of NFW profile.
+beta -- symmetrized anisotropy parameter (see text)
+logtemp -- 2 log(likelihood) 
+jfac_0d1 -- log10 of  J-factor (0.1 degree) in Msolar^2/kpc^5
+jfac_0d2 -- log10 of  J-factor (0.2 degree) in Msolar^2/kpc^5
+jfac_0d5 -- log10 of  J-factor (0.5 degree) in Msolar^2/kpc^5
+jfac_ac -- log10 of  J-factor (alpha_c) in Msolar^2/kpc^5.  For alpha_c definition see text.  Varies for each dSph.
+dfac_0d1 -- log10 of  D-factor (0.1 degree) in Msolar/kpc^2
+dfac_0d2 -- log10 of  D-factor (0.2 degree) in Msolar/kpc^2
+dfac_0d5 -- log10 of  D-factor (0.5 degree) in Msolar/kpc^2
+dfac_ac -- log10 of  D-factor (alpha_c/2) in Msolar/kpc^2.  For alpha_c definition see text.  Varies for each dSph.
+rtidal -- tidal radius (kpc) used for J/D calculation.
