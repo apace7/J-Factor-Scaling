@@ -2,7 +2,8 @@
 
 Repository for J-Factor posteriors.  For details on methodology see http://arxiv.org/abs/1802.06811.
 
-J-factors for 41 dwarfs are included (extra plots, chains/posteriors).
+J-factors for 41 dwarfs are included (extra plots, chains/posteriors). 
+The units for the J-factors are in Msolar^2/kpc^5 and the D-factors are in Msolar/kpc^2.
 Plots for J-factor scaling relations are also included.
 If you use these J-Factors please cite http://arxiv.org/abs/1802.06811.
 
